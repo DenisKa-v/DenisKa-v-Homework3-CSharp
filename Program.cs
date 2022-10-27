@@ -3,7 +3,29 @@
 // 12821 -> да
 // 23432 -> да
 
+/* void TestPalindrome (int number)
+{
+    if (number > 9999 && number < 100000)
+    {
+        if (number/10000 == number%10 && (number/1000)%10 == (number/10)%10) 
+        {
+        Console.WriteLine($"The number {number} is palindrome");
+        }
+        else
+        {
+        Console.WriteLine($"The number {number} is not palindrome");
+        }
+    }
+else
+    {
+    Console.WriteLine($"Non-five-digit number entered. Try again!");
+    }    
+}
 
+Console.WriteLine("Input five-digit number: ");
+int num =Convert.ToInt32(Console.ReadLine());
+
+TestPalindrome (num); */
 
 //Задача 21. Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве.
 //A (3,6,8); B (2,1,-7), -> 15.84
@@ -33,7 +55,7 @@ Console.Write ($"Расстояние между точками ({n1},{n3},{n5})
 //3 -> 1, 8, 27
 //5 -> 1, 8, 27, 64, 125
 
-void TableOfCube (int n)
+/* void TableOfCube (int n)
 {
     for (int i=1; i<=n; i++) {
         Console.Write ($"{i*i*i} ");
@@ -42,4 +64,4 @@ void TableOfCube (int n)
 }
 Console.Write ("Введите число: ");
 int n = Convert.ToInt32(Console.ReadLine());
-TableOfCube (n);
+TableOfCube (n); */
